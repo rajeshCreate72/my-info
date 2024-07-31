@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Park Qwik - Assignment</title>
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="flex justify-between flex-col total-page">
+      <header
+        class="bg-header-color flex justify-between p-5 h-20 items-center"
+      >
+        <div class="flex justify-center items-center flex-row ml-20">
+          <h1 class="text-2xl text-white font-bold mr-5">Rajesh Gurugunti</h1>
+          <span class="text-2xl text-white">|</span>
+          <h4 class="text-xl text-white ml-5">Software developer</h4>
+        </div>
+        <nav class="flex justify-center flex-row mr-20">
+          <ul id="nav-list" class="flex justify-center flex-row text-white">
+            <li>
+              <a id="home-link" href="#">Home</a>
+            </li>
+            <li><a id="projects-link" href="#">Projects</a></li>
+            <li><a id="contact-link" href="#">Contact</a></li>
+          </ul>
+          <button
+            id="hamburger"
+            class="flex flex-col items-center justify-center w-10 h-10 bg-header-color text-white focus:outline-none pl-2"
+          >
+            <span class="block w-6 h-0.5 bg-white mb-1"></span>
+            <span class="block w-6 h-0.5 bg-white mb-1"></span>
+            <span class="block w-6 h-0.5 bg-white"></span>
+          </button>
+        </nav>
+      </header>
+      <div id="About">
+        <div class="flex items-center justify-between flex-col mr-40 ml-40">
+          <section>
+            <p class="text-4xl mt-5">About me</p>
+            <article class="paragraph mt-5">
+              Hello! I’m Rajesh Gurugunti, a passionate software developer with
+              a solid foundation in Java, Python, JavaScript, and HTML/CSS. I
+              have a keen interest in creating innovative projects and improving
+              user experiences through my expertise in full-stack development. I
+              am constantly looking to expand my knowledge and skills.
+            </article>
+          </section>
+          <section>
+            <p class="text-4xl mt-5">
+              My interest towards frontend development
+            </p>
+            <article class="paragraph mt-5 mb-5">
+              Frontend development is crucial because it shapes the user
+              interaction with the application, making it an essential part of
+              web development. My interest in frontend development peaked when I
+              started using React. The process of integrating APIs and creating
+              engaging, user-friendly websites fascinates me. I enjoy the
+              challenge of crafting interfaces that are both visually appealing
+              and highly functional, ensuring a seamless and enjoyable user
+              experience.
+            </article>
+          </section>
+        </div>
+      </div>
+      <div
+        id="Projects"
+        class="hidden flex flex-row justify-evenly mr-40 ml-40"
+      >
+        <a href="https://github.com/rajeshCreate72/chat-website">
+          <div class="project-tile text-white">
+            Full-stack messaging webiste
+          </div>
+        </a>
+        <a href="https://github.com/rajeshCreate72/kanban-board">
+          <div class="project-tile text-white">Kanban board</div>
+        </a>
+      </div>
+      <div
+        id="Contact"
+        class="hidden flex items-center flex-col justify-evenly mr-40 ml-40"
+      >
+        <h1>My contact</h1>
+        <p>Mail: gurugunti.rajesh00011@gmail.com</p>
+        <p>
+          LinkedIn:
+          <a href="https://www.linkedin.com/in/guruguntirajesh/"
+            >linkedin.com/in/guruguntirajesh</a
+          >
+        </p>
+      </div>
+      <footer class="bg-footer-color text-white h-15">
+        <ul class="flex justify-center flex-row">
+          <li><a href="https://github.com/rajeshCreate72">Github</a></li>
+        </ul>
+      </footer>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
